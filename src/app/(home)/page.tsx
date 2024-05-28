@@ -53,14 +53,14 @@ export default function Home() {
                 name="firstName"
                 id="firstName"
                 type="text"
-                defaultValue="Diego"
+                defaultValue="Denner"
               />
             </Input.Root>
             <Input.Root>
               <Input.Control
                 name="lastName"
                 type="text"
-                defaultValue="Fernandes"
+                defaultValue="Azevedo"
               />
             </Input.Root>
           </div>
@@ -82,7 +82,7 @@ export default function Home() {
                 id="email"
                 type="email"
                 name="email"
-                defaultValue="diego.schell.f@gmail.com"
+                defaultValue="me@dnnr.dev"
               />
             </Input.Root>
           </div>
@@ -120,7 +120,7 @@ export default function Home() {
               <Input.Control
                 name="role"
                 id="role"
-                defaultValue="Product Designer"
+                defaultValue="Tech Lead"
               />
             </Input.Root>
           </div>
@@ -204,7 +204,7 @@ export default function Home() {
             <Textarea
               name="bio"
               id="bio"
-              defaultValue="I'm a Product Designer based in Melbourne, Australia. I specialise in UX/UI design, brand strategy, and Webflow development."
+              defaultValue="Javascript enthusiast."
             />
           </div>
         </div>
