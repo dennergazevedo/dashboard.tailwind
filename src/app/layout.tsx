@@ -7,12 +7,12 @@ import { Sidebar } from '@/components/Sidebar'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Untitled UI',
+  title: 'Dnnr UI',
 }
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="pt-br">
       <body className={inter.className}>
         <div className="relative min-h-screen dark:bg-zinc-900 lg:grid lg:grid-cols-app">
           <Sidebar />
